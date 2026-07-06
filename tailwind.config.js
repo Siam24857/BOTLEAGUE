@@ -13,7 +13,7 @@ export default {
         'bot-neon': '#ff3e3e',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Orbitron', 'sans-serif'],
         display: ['Orbitron', 'sans-serif'],
       },
     },
