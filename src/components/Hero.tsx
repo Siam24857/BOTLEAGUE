@@ -1,5 +1,4 @@
 import { liveEvent } from "../data/data";
-import bgImage from "../assete/Banner.png";
 
 const Hero = () => {
   return (

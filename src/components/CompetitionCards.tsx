@@ -1,10 +1,9 @@
 "use client";
 
- 
 import {
   Medal,
   Gavel,
-  BriefcaseBusiness,
+  Briefcase,
   Zap,
 } from "lucide-react";
 
@@ -20,7 +19,7 @@ const features = [
     desc: "Compete with confidence under standardized, expert-led evaluation.",
   },
   {
-    icon: BriefcaseBusiness,
+    icon: Briefcase,
     title: "CAREER OPS",
     desc: "Bridge the gap between arena victories and top-tier tech placements.",
   },

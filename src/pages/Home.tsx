@@ -4,7 +4,6 @@ import Competitions from '../components/Competitions';
 import UserJourney from '../components/UserJourney';
 import About from '../components/About';
 import Categories from '../components/Categories';
-import Disciplines from '../components/Disciplines';
 import WhyRegister from '../components/WhyRegister';
 import JoinEcosystem from '../components/JoinEcosystem';
 import Sponsors from '../components/Sponsors';

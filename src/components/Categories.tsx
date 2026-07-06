@@ -1,14 +1,9 @@
- 
 import {
   Brain,
   UserCog,
   Lightbulb,
-  Bot,
   Rocket,
-  Trophy,
-  Briefcase,
 } from "lucide-react";
-import imgbb from "../assete/Build.png"
 
 const features = [
   {
@@ -93,13 +88,9 @@ export default function BotLeagueSection() {
 
           {/* Right Fake Image */}
           <div className="flex justify-center">
-            <img
-              src={imgbb}
-              width={400}
-              height={400}
-              alt="robot"
-              className="rounded-xl opacity-80"
-            />
+            <div className="w-[400px] h-[400px] rounded-xl bg-gray-800 opacity-80 flex items-center justify-center">
+              <span className="text-gray-600">Technical Diagram</span>
+            </div>
           </div>
 
         </div>

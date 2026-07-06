@@ -1,5 +1,4 @@
 import React from "react";
-import bgImage from "../assete/About.png"
 
 const competitions = [
   {
@@ -32,11 +31,7 @@ const CompetitionDisciplines: React.FC = () => {
   return (
     <section className="relative bg-black py-24 overflow-hidden">
       {/* Background Image */}
-      <img
-        src={bgImage}
-        alt="Background"
-        className="absolute bottom-0 right-0 w-[750px] opacity-70 pointer-events-none select-none"
-      />
+      <div className="absolute bottom-0 right-0 w-[750px] h-[500px] bg-gradient-to-t from-gray-800 to-transparent opacity-30 pointer-events-none select-none"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6">
