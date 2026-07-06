@@ -8,6 +8,7 @@ import {
   Trophy,
   Briefcase,
 } from "lucide-react";
+import imgbb from "../assete/Build.png"
 
 const features = [
   {
@@ -93,7 +94,7 @@ export default function BotLeagueSection() {
           {/* Right Fake Image */}
           <div className="flex justify-center">
             <img
-              src="https://picsum.photos/450/450"
+              src={imgbb}
               width={400}
               height={400}
               alt="robot"

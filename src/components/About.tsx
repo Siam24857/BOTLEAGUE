@@ -4,27 +4,27 @@ import bgImage from "../assete/About.png"
 const competitions = [
   {
     title: "Robo Race",
-    image: "https://picsum.photos/seed/robo1/600/400",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ49qyIsy8vo6mdlaKxMTqiLC5TKtR-Ww-xa7XFXt__g&s=10",
   },
   {
     title: "Line Follower",
-    image: "https://picsum.photos/seed/robo2/600/400",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRteyvB60B0DbWZ91gmvTFNi-GeEK88Pp0YoFzgDY8mmKmyG1uQSXIJN1Y&s=10",
   },
   {
     title: "RC Racing",
-    image: "https://picsum.photos/seed/robo3/600/400",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS61C2AeRKIG3GBthLOLxN8zVviBCs2rzQ9rWV-6R0yQ&s=10",
   },
   {
     title: "FPV Drone Racing & Aeromodelling",
-    image: "https://picsum.photos/seed/robo4/600/400",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWsLlZqYkQrkBHKqoRWzQNMiZuvJOisrm2nMwDpNNLfXMIdH39kKv38jI&s=10",
   },
   {
     title: "Robo Hockey",
-    image: "https://picsum.photos/seed/robo5/600/400",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3RtvwxYLbP2awL2hF7mt32QvPBOp10H_5gUbSYxwXIDc210Hk6rgIJs&s=10",
   },
   {
     title: "Robo War",
-    image: "https://picsum.photos/seed/robo6/600/400",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBE1mWlhyBiOt9aTHkXAd91VMeEN9uNd9NygH8hZlEOlg_wMw6ZS4Jqlpd&s=10",
   },
 ];
 

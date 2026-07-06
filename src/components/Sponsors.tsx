@@ -1,60 +1,53 @@
 import React from "react";
 
+import nitDelhi from "../assete/Genarel.png";
+import indianBit from "../assete/India.png";
+import nitSilchar from "../assete/Del.png";
+import roboCompany from "../assete/Round.png";
+import delhivery from "../assete/Bot.png";
+import generalRobotics from "../assete/Robot2.png";
+
 const sponsors = [
-  {
-    name: "NIT DELHI",
-    logo: "https://via.placeholder.com/60",
-  },
-  {
-    name: "INDIAN BIT",
-    logo: "https://via.placeholder.com/60",
-  },
-  {
-    name: "NIT SILCHAR",
-    logo: "https://via.placeholder.com/60",
-  },
-  {
-    name: "DELHIVERY ROBOTICS\nROBO COMPANY",
-    logo: "https://via.placeholder.com/60",
-  },
-  {
-    name: "IIT BOMBAY",
-    logo: "https://via.placeholder.com/60",
-  },
-  {
-    name: "GENERAL ROBOTICS\nROBO COMPANY",
-    logo: "https://via.placeholder.com/60",
-  },
+  { name: "NIT DELHI", logo:  roboCompany },
+  { name: "INDIAN BIT", logo: delhivery },
+  { name: "NIT SILCHAR", logo: generalRobotics  },
+  { name: "ROBO COMPANY", logo: nitSilchar},
+  { name: "IIT BOMBAY", logo: indianBit },
+  { name: "ROBO COMPANY", logo: nitDelhi },
 ];
 
 export default function Sponsors() {
   return (
-    <section className="bg-black text-white px-6 md:px-16 py-10">
-      {/* Title */}
-      <h2 className="text-2xl font-bold tracking-widest mb-10">
+    <section className="bg-black text-white px-6 md:px-16 py-14">
+
+      {/* TITLE */}
+      <h2 className="text-2xl md:text-3xl font-bold tracking-[0.25em] mb-14">
         SPONSORS
       </h2>
 
-      {/* Grid (STRICT 3 x 2 layout) */}
-      <div className="grid grid-cols-3 gap-y-14 gap-x-10 items-center">
-        {sponsors.map((item, idx) => (
-          <div
-            key={idx}
-            className="flex items-center gap-4 justify-start"
-          >
-            {/* Logo */}
-            <img
-              src={item.logo}
-              alt={item.name}
-              className="w-10 h-10 object-contain opacity-90"
-            />
+      {/* GRID (IMPORTANT: 3 columns like image) */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-20">
 
-            {/* Text */}
-            <div className="text-sm text-gray-300 leading-tight whitespace-pre-line">
-              {item.name}
+        {sponsors.map((item, idx) => (
+          <div key={idx} className="flex items-center gap-4">
+
+            {/* LOGO CIRCLE */}
+            <div className="  rounded-full   flex items-center justify-center">
+              <img
+                src={item.logo}
+                alt={item.name}
+                className="w-55 h-55 object-contain"
+              />
             </div>
+
+            {/* TEXT */}
+            <p className="text-xs md:text-sm text-gray-300 uppercase tracking-wider leading-tight">
+              {item.name}
+            </p>
+
           </div>
         ))}
+
       </div>
     </section>
   );
