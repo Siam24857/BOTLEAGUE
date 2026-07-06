@@ -5,8 +5,7 @@ const Navbar = () => {
     <nav className="bg-black/90 border-b border-gray-800 sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
       <div className="flex items-center gap-8">
         <div className="text-bot-red font-bold text-2xl heading-font flex items-center">
-          <span className="mr-2">⚡</span>
-          BOTLEAGUE
+           <img src="https://generous-pink-8d7gh0np.edgeone.dev/Screenshot_2026-04-25_234622-removebg-preview%201.png" alt="Logo" className="h-10 w-full"/>
         </div>
         <div className="hidden md:flex gap-6 text-sm font-medium uppercase tracking-wider text-gray-300">
           {navigation.map((item) => (
