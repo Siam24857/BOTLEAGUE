@@ -1,3 +1,9 @@
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
+
 export default function Footer() {
   return (
     <footer className="bg-black text-white px-6 md:px-16 py-10">
@@ -42,23 +48,23 @@ export default function Footer() {
             {/* You can replace with react-icons */}
             
             {/* YouTube */}
-            <div className="w-8 h-8 border border-gray-600 rounded flex items-center justify-center">
-              ▶
+            <div className="  flex items-center justify-center">
+               <FaYoutube />
             </div>
 
             {/* Instagram */}
-            <div className="w-8 h-8 border border-gray-600 rounded flex items-center justify-center">
-              ◎
+            <div className="  flex items-center justify-center">
+              <FaInstagram />
             </div>
 
             {/* Facebook */}
-            <div className="w-8 h-8 border border-gray-600 rounded flex items-center justify-center">
-              f
+            <div className="  flex items-center justify-center">
+             <FaFacebook  />
             </div>
 
             {/* Twitter */}
-            <div className="w-8 h-8 border border-gray-600 rounded flex items-center justify-center">
-              ✦
+            <div className=" flex items-center justify-center">
+              <FaTwitter />
             </div>
           </div>
         </div>
