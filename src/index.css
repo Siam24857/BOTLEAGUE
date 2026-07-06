@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heading-font {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.hero-gradient {
+  background: linear-gradient(rgba(10, 10, 10, 0.4), rgba(10, 10, 10, 0.9)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1uZL0aPjzUwmdEXTm_ROrd2IQ4zSswvVN9Q2D2cgGOmdxe3wu2ai4rAXW8gtBl1RSCF0xEHy8JE58krcIFPnWSggAGsQUf_ZR2eNIZhxgNVBzdel94zWBpFZT4vZ10-WFCCbtZGUrln9r-O6yEKoibdpgVEpXBZj0z1rY5jGYbhJCFAcsCaH06Ifqx9KhuPljyKTy3q0EY_dKLNleKZBktqufdsDKsh26DSf1I6mRXkNfmhqcPzcV4zqSx4-n16FXhtrqG6-lnP4');
+  background-size: cover;
+  background-position: top center;
+  height: 600px;
+}
+
+.card-border {
+  border: 1px solid #333;
+  transition: border-color 0.3s ease;
+}
+
+.card-border:hover {
+  border-color: #ff4d4d;
+}
+
