@@ -88,9 +88,10 @@ export default function BotLeagueSection() {
 
           {/* Right Fake Image */}
           <div className="flex justify-center">
-            <div className="w-[400px] h-[400px] rounded-xl bg-gray-800 opacity-80 flex items-center justify-center">
+            <img src="https://cruel-blue-z8gac84j.edgeone.dev/Screenshot_2026-04-26_114455-Picsart-AiImageEnhancer-removebg-preview%201.png"></img>
+            {/* <div className="w-[400px] h-[400px] rounded-xl bg-gray-800 opacity-80 flex items-center justify-center">
               <span className="text-gray-600">Technical Diagram</span>
-            </div>
+            </div> */}
           </div>
 
         </div>

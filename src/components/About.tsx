@@ -31,7 +31,11 @@ const CompetitionDisciplines: React.FC = () => {
   return (
     <section className="relative bg-black py-24 overflow-hidden">
       {/* Background Image */}
-      <div className="absolute bottom-0 right-0 w-[750px] h-[500px] bg-gradient-to-t from-gray-800 to-transparent opacity-30 pointer-events-none select-none"></div>
+      <img
+        src="https://increasing-salmon-au5ok9lf.edgeone.dev/download__2_-removebg-preview%201.png"
+        alt="Background"
+        className="absolute bottom-12 right-16 w-[750px] opacity-70 pointer-events-none select-none"
+      />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6">

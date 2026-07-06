@@ -69,22 +69,14 @@ export default function WhyRegister() {
 
           {/* RIGHT SIDE */}
           <div className="flex justify-center lg:justify-end">
-            <div className="relative w-[360px] h-[620px]">
-              <div className="absolute inset-0 rounded-lg overflow-hidden border border-[#2d2d2d] bg-gradient-to-b from-[#1d1d1d] to-[#111111]">
-                <div className="relative z-10 p-6">
-                  <h3 className="text-white text-center font-bold tracking-widest text-3xl mb-8">
-                    LEADERBOARD
-                  </h3>
-                  <div className="flex flex-col items-center">
-                    <div className="w-20 h-20 rounded-full bg-yellow-500 flex items-center justify-center">
-                      <span className="text-black font-bold text-2xl">#01</span>
-                    </div>
-                    <p className="text-gray-300 mt-3 text-lg">Player Name</p>
-                    <h1 className="text-white text-6xl font-black tracking-wider">508754</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
+ 
+
+                <img
+                  src="https://primary-coral-wekqf8xo.edgeone.dev/11299407_4672785-removebg-preview%201.png"
+                  alt="leaderboard user"
+                  className="w-full h-full object-cover rounded-lg"
+                />
+
           </div>
 
         </div>

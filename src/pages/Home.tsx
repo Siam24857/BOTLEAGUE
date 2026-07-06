@@ -4,6 +4,7 @@ import Competitions from '../components/Competitions';
 import UserJourney from '../components/UserJourney';
 import About from '../components/About';
 import Categories from '../components/Categories';
+import Disciplines from '../components/Disciplines';
 import WhyRegister from '../components/WhyRegister';
 import JoinEcosystem from '../components/JoinEcosystem';
 import Sponsors from '../components/Sponsors';
@@ -11,18 +12,14 @@ import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: '#0a0a0a', color: '#ffffff', minHeight: '100vh' }}>
-      {/* <div style={{ padding: '50px' }}>
-        <h1 style={{ fontSize: '48px', fontWeight: 'bold', marginBottom: '20px' }}>BotLeague</h1>
-        <p style={{ fontSize: '24px', marginBottom: '20px' }}>Loading components...</p>
-      </div> */}
+    <div className="min-h-screen bg-bot-dark">
       <Navbar />
       <Hero />
       <Competitions />
       <UserJourney />
     
       <Categories />
-        <About />
+       <About />
       <WhyRegister />
       <JoinEcosystem />
       <Sponsors />

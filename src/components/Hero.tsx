@@ -24,12 +24,10 @@ const Hero = () => {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 max-w-3xl pt-20 p-5">
+      <div className="relative z-10  pt-20 p-14">
         <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight text-white">
-          INDIA'S ULTIMATE <br />
-          <span className="text-gray-300">
-            ROBOTICS ARENA
-          </span>
+         INDIA’S ULTIMATE<br></br>ROBOTICS ARENA
+        
         </h1>
 
         <p className="text-gray-300 mb-8 max-w-lg">

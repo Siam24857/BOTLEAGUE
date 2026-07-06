@@ -127,7 +127,7 @@ export default function WhyRegister() {
                 <div className="flex flex-col items-center">
 
                   <img
-                    src="https://picsum.photos/100"
+                    src=""
                     alt="user"
                     width={80}
                     height={80}
